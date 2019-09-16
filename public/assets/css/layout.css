@@ -91,6 +91,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h2 {
     font-size: 2em;
     letter-spacing: -1px;
+ 
 }
 
 h3 {
@@ -1758,19 +1759,19 @@ button,
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("https://66.media.tumblr.com/tumblr_md36jsnbES1qm3kxlo1_500.gif");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #080808;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #080808;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #080808;
 			}
 
 /* Wide */
@@ -1848,7 +1849,8 @@ button,
 		/* Header */
 
 			#header {
-				width: 20%;
+                width: 20%;
+                color:#080808;
 			}
 
 			#logo .image {
@@ -2103,6 +2105,10 @@ button,
 				width: 2em;
 				font-size: 1.25em;
 			}
-
-		/* Main */
-
+        }
+        header{
+            color:#080808;
+            font-family: Ruslan Display;
+            font-size:50px;
+            text-shadow: 2px 2px #dedede;
+        }
